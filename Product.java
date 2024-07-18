@@ -25,7 +25,5 @@ public abstract class Product {
     public void setPrice(double price) {
         this.price = price;
     }
-    public double getDiscount(){
-        return price;
-    }
+    public abstract double getDiscount();
 }
